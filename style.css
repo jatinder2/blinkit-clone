@@ -245,4 +245,7 @@ table{
   #hero-section{
     display: none !important;
   }
+  #category-1, #category-2{
+    display: inline git!important;
+  }
 }
