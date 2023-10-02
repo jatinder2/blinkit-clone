@@ -245,4 +245,39 @@ table {
   #hero-section {
     display: none !important;
   }
+  .footer-row-1{
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: auto;
+  }
+  .footer-row-2{
+    flex-direction: column;
+  }
+  .footer-row-3{
+    white-space: wrap;
+    margin: auto !important;
+  }
+  .footer-column-1{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-column-2{
+    margin-top: 20px;
+    text-align: center;
+  }
+  td{
+    padding-inline: 20px !important;
+  }
+  .social-btn{
+    margin-inline: 10px;
+    padding: 20px;
+  }
+  .app-stores{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 }
