@@ -67,6 +67,11 @@ nav {
 .scroll-container>img {
   padding-right: 10px;
 }
+.hero-section-2{
+  width: 90vw;
+  margin: auto;
+  white-space: wrap;
+}
 
 .category {
   white-space: nowrap;
@@ -241,27 +246,11 @@ td:hover{
 table{
   width: 100%;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:510px) {
   #hero-section{
     display: none !important;
   }
-  .footer-row-1{
-    flex-direction: column;
-    justify-content: center;
-  }
-  footer-row-2{
-    flex-direction: column;
-    justify-content: center;
-  }
-  .footer-column-1{
-    text-align: center;
-    padding-top: 20px !important;
-    margin-bottom: 20px;
-  }
-  .footer-column-2{
-    text-align: center;
-  }
-  .scroll-container{
+  #scrollbar{
     margin-left: 10px;
   }
 }
