@@ -266,18 +266,31 @@ table {
     text-align: center;
   }
   td{
-    padding-inline: 20px !important;
+    padding: 10px !important;
   }
   .social-btn{
     margin-inline: 10px;
     padding: 20px;
   }
-  .app-stores{
-    
+    .app-stores{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
+  }
+  #navbar{
+    position:static;
+    flex-direction: column;
+  }
+  .verticle-line{
+    display: none;
+  }
+  .nav-search-bar{
+    width: 90vw;
+  }
+  .login, my-cart{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
   }
 }
