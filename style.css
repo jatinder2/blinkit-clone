@@ -246,6 +246,6 @@ table{
     display: none !important;
   }
   #category-1, #category-2{
-    display: inline !important;
+    display: inline!important;
   }
 }
