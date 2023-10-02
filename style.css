@@ -67,11 +67,6 @@ nav {
 .scroll-container>img {
   padding-right: 10px;
 }
-.hero-section-2{
-  width: 82vw;
-  margin: auto;
-  white-space: wrap;
-}
 
 .category {
   white-space: nowrap;
@@ -159,7 +154,7 @@ li {
 }
 
 .footer {
-  width: 82vw;
+  width: 84vw;
   margin: auto;
 }
 
@@ -187,7 +182,7 @@ li {
   margin-top: 12px;
 }
 .footer-row-2{
-  width: 82vw;
+  width: 84vw;
   margin: auto;
 }
 .social-icons{
@@ -245,12 +240,4 @@ td:hover{
 }
 table{
   width: 100%;
-}
-@media screen and (max-width:500px) {
-  #hero-section{
-    display: none !important;
-  }
-  #scrollbar{
-    margin-inline: 10px;
-  }
 }
